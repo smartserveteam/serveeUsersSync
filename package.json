@@ -1,0 +1,21 @@
+{
+  "name": "serveeUsersSync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "eslint": "^5.5.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "serverless-pseudo-parameters": "^2.2.0",
+    "serverless-step-functions": "^1.7.2"
+  }
+}
