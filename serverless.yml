@@ -33,7 +33,7 @@ provider:
   name: aws
   runtime: nodejs8.10
   stage: ${opt:stage, 'dev'}
-  region: 'ap-southeast-2'
+  region: 'eu-central-1'
   iamRoleStatements:
     - Effect: "Allow"
       Action:
